@@ -1,0 +1,42 @@
+<head>
+
+ 
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6">
+
+  <link href="{{ 'stylesheet.css' | asset_url}}" rel="stylesheet" type="text/css" media="all" />  
+  <link href="{{'layout.css' | asset_url'}}" rel="stylesheet" type="text/css" media="all" />
+  
+<link rel="preload" href="{{ 'flexslider.css' | asset_url}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'flexslider.css' | asset_url}}"></noscript>
+
+<link rel="preload" href="{{ 'jquery.fs.selecter.css' | asset_url}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'jquery.fs.selecter.css' | asset_url}}"></noscript>  
+  
+<link rel="preload" href="{{ 'jquery.fancybox.css' | asset_url}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'jquery.fancybox.css' | asset_url}}"></noscript>
+  
+<link rel="preload" href="{{ 'font-awesome.css' | asset_url}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'font-awesome.css' | asset_url}}"></noscript>  
+ 
+<link rel="preload" href="{{ 'product-page.scss.css' | asset_url}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'product-page.scss.css' | asset_url}}"></noscript>  
+  
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+
+  
+  
+
+
+  <script defer src="{{ 'theme.js' | asset_url}}" type="text/javascript"></script>  
+  <script defer src="{{ 'option_selection.js' | shopify_asset_url}}"></script>
+  <script defer src="{{ 'jquery.flexslider.js' | asset_url}}"></script>
+  <script defer src="{{ 'jquery.easing.1.3.js' | asset_url}}"></script>
+  <script defer src="{{ 'jquery.fs.selecter.min.js' | asset_url}}"></script>
+  <script defer src="{{ 'jquery.fs.shifter.js' | asset_url}}"></script>
+  <script defer src="{{ 'jquery.fancybox.pack.js' | asset_url}}"></script> 
+  <script defer src="{{ 'jquery.elevatezoom.js' | asset_url}}"></script>  
+  <script defer src="{{ 'jquery.placeholder.js' | asset_url}}"></script>  
+  <script defer src="{{ 'jquery.cookie.js' | asset_url}}"></script>
